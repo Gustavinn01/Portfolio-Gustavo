@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Conteudo de Gustavo Henrique-Portfólio">
+    <meta name="author"= content= "Gustavo Henrique">
+    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <title>Portfóio de Gustavo</title>
+</head>
+<body onload="slide1()">
+
+
+<p id="home"></p>
+<header class="topo">
+   <div id="menu">
+    <ul>
+        <li><a class="link-home" href="#home">Home</a></li>
+        <li><a class="link-sobreMim" href="#rolagem2">Sobre mim</a></li>
+        <li><a class="link-habilidades" href="#rolagem3">Habilidades</a></li>
+        <li><a class="link-projeto" href="#rolagem4">Projetos</a></li>
+    </ul>
+   </div>
+</header>
+
+<main id="meio">
+    <section>
+       <div class="inicio-do-projeto">
+          <h1>Ola, sou Gustavo Henrique</h1>
+          <h2>Desenvolvedor Front-End</h2>
+          <a href="https://www.instagram.com/dev_gustavo04/?next=%2F" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://github.com/Gustavinn01" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/gustavo-henrique-25a436249/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a><br>
+       </div>
+       <p style="color: rgb(236, 236, 236);font-family: sans-serif;" id="contador"></p><br><br>
+       <img src="./foto-fundo1.png" alt="" width="350px" height="310px" id="foto" onclick="Foto()">
+    </section>
+
+    <p id="rolagem2"></p>
+    <section id="sobreMim">
+        <div class="parte2">
+            <h2>Sobre mim</h2>
+            <p id="text">Sou desenvolvedor front-end, cursando atualmente Análise e Desenvolvimento de Sistemas.<br>Tenho Conhecimentos em <strong><i>SQL</i>, <i>GIT</i>, <i>SCRUM</i>, <i>METODOLOGIA ÁGIL</i>,<i> ENGENHARIA DE REQUISITOS</i></strong> e criando uma paixão grande por <br> efeitos de interface do usuário, animações e criação de experiências de usuário intuitivas e dinâmicas.</p>
+            <a href="./Currículo de Gustavo.pdf"  target="_blank"><b>Currículo</b></a>
+            <a id="link-contato" style="padding: 20px 27px;" href="https://web.whatsapp.com/send?phone=5581998396066" target="_blank"><b> &nbsp;&nbsp;Contato</b> &nbsp;</a>
+
+        </div>
+    </section>
+    
+    <p id="rolagem3"></p>
+    <section id="parte3">
+        <h2>Habilidades</h2>
+        <div class="container">
+              <div class="card1"><br>
+                  <p href="#">HTML5 <br> <i class="fa fa-html5" aria-hidden="true"></i></p>
+              </div>
+
+              <div class="card2"><br>
+                  <p href="#">CSS3<br> <i class="fa fa-css3" aria-hidden="true"></i></p>
+              </div>
+
+              <div class="card3"><br>
+                  <p href="#">JavaScript <br><img class="card3-img" src="./JS-img.png" alt="" height="80px"></p>
+              </div>
+        </div>
+        <h2 style="font-size: 40px; margin-top: 20px; color: rgba(71, 71, 71, 0.815);" >Conhecimentos</h2>
+        <div class="container">
+            <div class="card4"><br>
+                <p href="#">SQL</i></p>
+            </div>
+
+            <div class="card5"><br>
+                <p href="#">SCRUM</i></p>
+            </div>
+
+            <div class="card6"><br>
+                <p href="#">GIT</p>
+            </div>
+        </div>
+    </section>
+
+    <p id="rolagem4"></p>
+    <section id="parte4">
+        <div class="projetos">
+            <h2>Projetos</h2>
+            <img  src="Html JS.png" id="Img" width="600px" height="320px">
+            <a href="./projetos.html" target="_blank">Acessar todos os projetos</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div id="mudeCor">
+         <h3>Mude o fundo com sua cor preferida</h3> 
+         <p id="teste"></p><br>
+         <input type="text" id="cor" placeholder="Digite uma cor">
+         <button onclick="verificaCor()">Mudar</button>
+
+    </div>
+</footer>
+
+
+<script src="./JS/portfolio.js"></script>
+</body>
+</html>
